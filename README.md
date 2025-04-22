@@ -17,4 +17,5 @@ The vision of SimpleVoting is to provide a secure and transparent platform for c
 - **Support for Weighted Voting**: Allow votes to carry different weights based on predefined criteria.
 
 ## Contract Details
-- **Contract Address**: `0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb`
+- ![image](https://github.com/user-attachments/assets/64b2f29e-4aae-472c-8c69-6a21d035278f)
+
