@@ -1,20 +1,35 @@
-# SimpleVoting
+# 🌟 Education DAO for School Governance
 
-## Project Title
-SimpleVoting - A Decentralized Voting System
+## 📌 Project Title
+**Education DAO for School Governance** - A Decentralized Governance System for Schools
 
-## Project Description
-SimpleVoting is a decentralized application built on the Aptos blockchain that allows users to create and participate in voting polls. The system ensures transparency, immutability, and fairness by leveraging blockchain technology. Users can create polls with multiple options, cast their votes, and ensure that no voter can vote more than once.
+## 📖 Project Description
+Education DAO is a decentralized application built on the **Aptos blockchain** that empowers school stakeholders to collaboratively govern and make decisions for their institutions. The platform ensures **transparency**, **immutability**, and **fairness** by leveraging blockchain technology. Users can:
+- Create governance polls on school-related matters.
+- Cast votes on decisions such as policy changes or budget allocation.
+- Ensure that each member participates fairly in the decision-making process.
 
-## Project Vision
-The vision of SimpleVoting is to provide a secure and transparent platform for conducting polls and elections. By utilizing blockchain technology, SimpleVoting aims to eliminate fraud, ensure voter anonymity, and provide a tamper-proof voting mechanism that can be used for various purposes, including community decisions, organizational elections, and public opinion surveys.
+## 🎯 Project Vision
+The vision of Education DAO is to provide a **secure** and **transparent** platform for school governance. By utilizing blockchain technology, Education DAO aims to:
+- Eliminate centralized control.
+- Enhance community participation.
+- Offer a tamper-proof and accessible system for school decision-making.
 
-## Future Scope
+## 🚀 Future Scope
 - **Enhanced Privacy**: Implement zero-knowledge proofs to ensure complete voter anonymity.
-- **Multi-Signature Polls**: Allow multiple creators to manage a single poll collaboratively.
-- **Result Analytics**: Provide detailed analytics and visualizations for poll results.
-- **Integration with Wallets**: Enable seamless integration with popular Aptos wallets for better user experience.
-- **Support for Weighted Voting**: Allow votes to carry different weights based on predefined criteria.
+- **Multi-Signature Governance**: Allow multiple stakeholders to co-manage decision processes.
+- **Detailed Analytics**: Provide comprehensive analytics and visualizations for poll outcomes.
+- **Wallet Integration**: Enable seamless integration with popular Aptos wallets.
+- **Weighted Voting**: Support differentiated vote weights based on stakeholder roles.
 
-## Contract Details
-- **Contract Address**: `0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb`
+## 📜 Contract Details
+- **Module Address**: `0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb`
+- **Transaction Hash**: `0xd91920a2697ba0fbc8039625b57b1050edafd3bcfbbd6b3821d6460facabaced`
+- **Module Name**: `EducationDAO`
+
+### 🔑 Key Functions
+1. **create_poll**: Creates a new governance poll addressing school-related issues.
+2. **vote**: Enables stakeholders to cast their votes on the active poll.
+
+## 📬 Contact
+For inquiries or support, please reach out to the development team.

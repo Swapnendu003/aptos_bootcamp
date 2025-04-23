@@ -1,4 +1,4 @@
-module 0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb::SimpleVoting {
+module 0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb::EducationDAO {
     use aptos_framework::account;
     use aptos_framework::signer;
     use std::vector;
@@ -7,7 +7,7 @@ module 0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb::Simpl
     const E_ALREADY_VOTED: u64 = 1;
     const E_VOTING_CLOSED: u64 = 2;
 
-    /// Structure to store voting information
+    /// Structure to store voting information for Education DAO governance
     struct VotingPoll has key {
         creator: address,
         options: vector<vector<u8>>,
@@ -16,7 +16,7 @@ module 0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb::Simpl
         is_active: bool
     }
 
-    /// Creates a new voting poll with the specified options
+    /// Creates a new governance poll for the Education DAO for school decision-making.
     public entry fun create_poll(
         creator: &signer,
         options: vector<vector<u8>>
@@ -43,7 +43,7 @@ module 0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb::Simpl
         move_to(creator, poll);
     }
 
-    /// Cast a vote for a specific option in the poll
+    /// Casts a vote for a specific option in the governance poll.
     public entry fun vote(
         voter: &signer,
         poll_creator: address,

@@ -1,11 +1,12 @@
 [package]
-name = "bootcamp"
-version = "1.0.0"
+name = "EducationDao"
+version = "2.0.0"
 authors = []
 
 [addresses]
-
+my_add='0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb'
 [dev-addresses]
+my_add='0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb'
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-framework.git"
