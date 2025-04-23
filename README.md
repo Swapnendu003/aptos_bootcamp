@@ -24,12 +24,12 @@ The vision of Education DAO is to provide a **secure** and **transparent** platf
 
 ## 📜 Contract Details
 - **Module Address**: `0x8726bbabd78eb469fde4bedebbd135822ce37b276c330cfc88f17c6ce79555fb`
-- **Transaction Hash**: `0xd91920a2697ba0fbc8039625b57b1050edafd3bcfbbd6b3821d6460facabaced`
+- **Transaction Hash**: `0xd9d90b5bcd8bbed80e9f97af46e8ffe4a6c2911d3fda2e705cec4d7dadc78eee`
 - **Module Name**: `EducationDAO`
+- ![image](https://github.com/user-attachments/assets/d04c4bc8-125b-47c9-b84f-2af8cdbaaa56)
+
 
 ### 🔑 Key Functions
 1. **create_poll**: Creates a new governance poll addressing school-related issues.
 2. **vote**: Enables stakeholders to cast their votes on the active poll.
 
-## 📬 Contact
-For inquiries or support, please reach out to the development team.
